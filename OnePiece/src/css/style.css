@@ -80,12 +80,16 @@ main .personagem .imagem {
 }
 
 .botoes {
-    min-height: 90vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .botoes .botao {
     border: none;
-    background: none;
+    background: black;
     cursor: pointer;
     border-radius: 50%;
 }

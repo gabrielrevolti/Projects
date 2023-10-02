@@ -1,4 +1,7 @@
 @media (max-width: 769px) {
+    body{
+        overflow: auto;
+    }
     main::after {
         background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.00) 65%) no-repeat;
         width: 100vw;
@@ -24,11 +27,21 @@
         max-width: 500px;
     }
 
+    .aside{
+        justify-content: flex-end;
+        width: 100%;
+        padding: 30px;
+        overflow: hidden;
+    }
+
+
     .botoes {
+        flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
         padding: 30px;
+        align-self: flex-end;
     }
 
     .botoes .botao img {
